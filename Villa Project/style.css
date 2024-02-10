@@ -1,0 +1,548 @@
+/* top bar start */
+
+.top {
+  display: flex;
+  opacity: 70%;
+  font-size: 2.3vh;
+}
+
+.top1st {
+  padding-left: 5vw;
+}
+.top2nd {
+  padding-left: 5vw;
+}
+.top3rd {
+  position: absolute;
+  right: 5vw;
+}
+
+/* top bar end */
+
+/* nav bar start */
+
+.navbar {
+  margin-top: 6vh;
+  display: flex;
+}
+.home:hover{
+  color: #f35525;
+}
+.properties:hover{
+  color: #f35525;
+}
+.details:hover{
+  color: #f35525;
+}
+.visit:hover{
+  color: #f35525;
+}
+.subvar {
+  margin-top: 10px;
+  display: flex;
+}
+.heads {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-size: 5vh;
+}
+.home {
+  padding-left: 7vw;
+}
+.properties {
+  padding-left: 5vw;
+}
+
+.details {
+  padding-left: 5vw;
+}
+.visit {
+  padding-left: 5vw;
+}
+/* nav bar end */
+
+/* background image part start from here */
+
+.bgimage {
+  width: 97vw; /* Adjust the width and height according to your photo */
+  height: 100vh;
+  position: relative;
+  background-image: url(villa\ 02.jpg);
+  background-size: cover;
+  color: #f35525; /* Text color */
+}
+
+.bgimage::after {
+  content: "Hurry ! \A get the \A best villa \A for you"; /* Your text here */
+  position: absolute;
+  top: 50%; /* Adjust as needed */
+  left: 30%; /* Adjust as needed */
+  transform: translate(-50%, -50%);
+  font-size: 62px; /* Adjust the font size as needed */
+  font-weight: bold; /* Adjust the font weight as needed */
+  white-space: pre-wrap; /* Allows line breaks */
+  text-transform: capitalize;
+}
+
+/* background image part end here */
+
+/* image part start here */
+.mainbox01 {
+  display: flex;
+}
+.image01 {
+  width: 30vw;
+  height: 40vw;
+  display: flex;
+  position: relative;
+  background-size: cover;
+  margin: 20vh 0 10vh 10vh;
+  background-image: url(indoor\ image\ 01.jpg);
+}
+
+.feature {
+  top: 50%;
+  left: 60%;
+  color: #ee626b;
+  /* display: block; */
+  font-size: 17px;
+  font-weight: 800;
+  margin: 20vh 0 10vh 10vh;
+  text-transform: uppercase;
+}
+.feature > p {
+  color: black;
+  font-size: 40px;
+}
+.question {
+  text-transform: none;
+  color: #f35525;
+  font-size: 20px;
+}
+.question > p {
+  color: black;
+  font-size: 18px;
+  font-weight: 30;
+}
+.highlight {
+  color: rgb(12, 134, 248); /* Change the color as needed */
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  margin: 20vh 0 10vh 10vh;
+  justify-content: space-evenly;
+  /* Other styles for sidebar */
+}
+
+.sidebar > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+.text-container {
+  margin-left: 10px; /* Adjust as needed */
+}
+
+.text-container h3 {
+  margin: 0; /* Remove default margin */
+}
+
+.text-container span {
+  display: block; /* Display span as block to have it below h3 */
+  opacity: 50%;
+}
+
+.metersquare::after {
+  content: "\33A1"; /* Unicode character for square meter */
+}
+
+/* image part end here */
+
+/* why us part start here */
+.why {
+  display: flex;
+  justify-content: space-evenly;
+}
+.build {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.build > h2 {
+  margin-right: 10px; /* Remove default margin */
+  font-size: 50px;
+  color: #f35525;
+}
+.build > p {
+  margin-left: 5px; /* Remove default margin */
+}
+.exp {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.exp > h2 {
+  margin-right: 10px; /* Remove default margin */
+  font-size: 50px;
+  color: #f35525;
+}
+.exp > p {
+  margin-left: 5px; /* Remove default margin */
+}
+.award {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.award > h2 {
+  margin-right: 10px; /* Remove default margin */
+  font-size: 50px;
+  color: #f35525;
+}
+.award > p {
+  margin-left: 5px; /* Remove default margin */
+}
+/* why us part end here */
+
+/* best deal part start here */
+
+.best-deal {
+  display: flex;
+
+  align-items: end;
+}
+
+.find {
+  margin-left: 10%;
+}
+
+.find > h3 {
+  font-size: 20px;
+  margin-bottom: none;
+  font-weight: 900;
+  color: #ee626b;
+}
+.find > p {
+  font-size: 50px;
+  font-weight: bolder;
+}
+.batans {
+  margin-left: 5%;
+  margin-bottom: 6%;
+}
+.my-button {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+#first {
+  background-color: #f35525;
+}
+
+.my-button:active {
+  background-color: red; /* Change color when the button is active */
+}
+
+/* best deal end here */
+
+/* two sidebar part start here */
+.mainbox02 {
+  display: flex;
+}
+
+.left-sidebar,
+.right-sidebar {
+  width: 200px; /* Adjust the width of the sidebars as needed */
+  background-color: #f0f0f0; /* Example background color */
+  /* Other sidebar styles */
+}
+
+.middle-content {
+  flex: 1; /* This will make the middle content take up the remaining space */
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+}
+
+.middle-content img {
+  max-width: 100%; /* Ensure the image does not exceed the container's width */
+  max-height: 100%; /* Ensure the image does not exceed the container's height */
+}
+
+.left-sidebar {
+  display: block;
+  justify-content: space-evenly;
+}
+.left-sidebar p {
+  opacity: 60%;
+  margin-bottom: -10px;
+}
+.right-sidebar p {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  opacity: 70%;
+}
+
+.batan2 {
+  display: flex;
+  height: 4vh;
+  width: 13vw;
+  padding: 10px;
+  background-color: #1e1e1e;
+  color: #fff;
+  font-weight: 400;
+  text-transform: none;
+  padding-left: 50px;
+  padding-right: 0;
+  border-radius: 20px;
+}
+.circle {
+  margin-top: -7%;
+  margin-left: -125%;
+  display: flex;
+  height: 47px;
+  width: 47px;
+  background-color: #f35525;
+  border-radius: 50%;
+}
+
+/* two sidebar part end here */
+
+/* middle center start here */
+
+.viewport-div {
+  width: 100%; /* 100% viewport width */
+  height: 40vh; /* 40% viewport height */
+  background-color: #f0f0f0; /* Example background color */
+  display: flex; /* Use Flexbox for layout */
+  flex-direction: column; /*Stack items vertically */
+  /* justify-content: center; Center items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.viewport-div > h2 {
+  margin-top: 10%;
+  /* margin-left: -10%; */
+  margin-bottom: 2%;
+  font-size: 15px;
+  color: #ee626b;
+}
+
+.viewport-div > p {
+  margin-top: 0;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* middle center end here */
+
+/* villa options part start here */
+
+.villa-container1,
+.villa-container2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10%;
+}
+.villa-container1 span {
+  background-color: #fbd9cf;
+  font-weight: 500;
+  font-size: 14px;
+  color: #1e1e1e;
+  border-radius: 5px;
+  padding: 5px 12px;
+  display: inline-block;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+.villa-container1 h6 {
+  display: inline;
+  font-size: 25px;
+  font-weight: 800;
+  margin-left: 20px;
+  color: #f35525;
+}
+.villa-container1 img {
+  display: block;
+  height: 200px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.villa-container1 h4 {
+  width: 250px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  font-size: 19px;
+  margin: 25px 0px;
+}
+
+.villa-container2 span {
+  background-color: #fbd9cf;
+  font-weight: 500;
+  font-size: 14px;
+  color: #1e1e1e;
+  border-radius: 5px;
+  padding: 5px 12px;
+  display: inline-block;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
+.villa-container2 h6 {
+  display: inline;
+  font-size: 25px;
+  font-weight: 800;
+  margin-left: 20px;
+  color: #f35525;
+}
+.villa-container2 img {
+  display: block;
+  height: 200px;
+  width: 250px;
+  border-radius: 10px;
+}
+.villa-container2 h4 {
+  width: 250px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  font-size: 19px;
+  margin: 25px 0px;
+}
+.test {
+  display: flex;
+  margin: 10px;
+}
+.opa {
+  opacity: 70%;
+}
+.full {
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.batan3 {
+  display: flex;
+  height: 5vh;
+  width: 15vw;
+  background-color: #1e1e1e;
+  color: #fff;
+  font-weight: 400;
+  text-transform: none;
+  text-align: center;
+  border-radius: 20px;
+  padding-left: 32px;
+  padding-top: 12px;
+}
+
+/* villa options part start here */
+
+/* footer start here */
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around; /* Adjust as needed */
+  align-items: center;
+}
+
+.footer-section {
+  display: flex;
+  text-align: center;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+  opacity: 70%;
+}
+
+.footer-section button {
+  background-color: #f35525;
+  border-radius: 5%;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.footer-section p {
+  margin-top: 20px;
+  margin-left: -50%;
+  font: 700;
+}
+.footer-section button:hover {
+  background-color: #fbd9cf;
+  color: #1e1e1e;
+  border: 2px solid #f35525;
+}
+
+i {
+  color: #f35525;
+}
+/* footer part end here */
+
+/* end part start here */
+.end {
+  text-align: center;
+  padding-top: 7%;
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  height: 10vh;
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  background-color: black;
+  height: 25px;
+  width: 25px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.top3rd {
+  display: flex;
+}
+
+.box:hover {
+  background-color: #f35525;
+}
+.ikon:hover .fa-brands.fa-linkedin {
+  color: white;
+}
+.ikon:hover .fa-brands.fa-facebook {
+  color: white;
+}
+.ikon:hover .fa-brands.fa-instagram {
+  color: white;
+}
+.ikon:hover .fa-brands.fa-x-twitter {
+  color: white;
+}
+
+.fa-solid.fa-phone {
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+#mail-ikon {
+  display: flex;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.footer-section button{
+  box-sizing: border-box;
+}
